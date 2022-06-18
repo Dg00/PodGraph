@@ -78,7 +78,7 @@ def outputDotFile():
     
 def dotFileToPdf():
     os.system('/usr/local/bin/dot PodGraph.dot -Tpdf -o PodGraph.pdf')
-    os.system('rm PodGraph.dot')
+#     os.system('rm PodGraph.dot')
     os.system('open PodGraph.pdf')  
     pass    
 
